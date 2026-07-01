@@ -1,3 +1,8 @@
+> [!WARNING]
+> **Deprecated and archived.** This was a duplicate of the maintained Key Vault module. Use
+> [`terraform-azurerm-keyvault`](https://github.com/libre-devops/terraform-azurerm-keyvault)
+> (`libre-devops/keyvault/azurerm`) instead. This repo is read-only and unpublished (no registry release).
+
 ```hcl
 data "azurerm_client_config" "current_client" {
   count = var.use_current_client == true ? 1 : 0
